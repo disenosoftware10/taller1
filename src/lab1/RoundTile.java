@@ -96,7 +96,7 @@ public class RoundTile extends GameTile {
 	public void draw(final Graphics g, final int x, final int y,
 			final Dimension d) {
 		Graphics2D g2 = (Graphics2D) g;
-		g2.setColor(this.fillColor);
+		g2.setColor(Color.CYAN);
 		double xOffset = (d.width * (1.0 - this.scale)) / 2.0;
 		double yOffset = (d.height * (1.0 - this.scale)) / 2.0;
 		g2.fillOval((int) (x + xOffset), (int) (y + yOffset),
